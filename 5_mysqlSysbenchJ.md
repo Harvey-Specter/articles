@@ -1,84 +1,83 @@
 # sysbenchインストール、使用、結果の解釈
 
-sysbench是一个模块化的、跨平台、多线程基准测试工具，主要用于评估测试各种不同系统参数下的数据库负载情况。
-目前sysbench代码托管在launchpad上，项目地址：https://launchpad.net/sysbench,源码采用bazaar管理。
+sysbench は、さまざまなシステム パラメーターの下でデータベースの負荷を評価およびテストするために主に使用される、モジュール式、クロスプラットフォーム、マルチスレッドのベンチマーク ツールです。
+現在、sysbench コードは launchpad、プロジェクト アドレス: https://launchpad.net/sysbench でホストされ、ソース コードは bazaar によって管理されています。
 
-## 下载源码包
-安装epel包后以便安装bzr客户端：
-
-	rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
-然后就可以开始安装bzr客户端了：
+## ソースパッケージをダウンロード
+bzr クライアントをインストールします。
 
 	yum install bzr
-之后，就可以开始用bzr客户端下载tpcc-mysql源码了。
+その後、bzr クライアントで tpcc-mysql ソース コードのダウンロードを開始できます。
 
 	cd /tmp
 	bzr branch lp:sysbench
 
-sysbench支持以下几种测试模式：
+sysbench は、次のテスト モードをサポートしています。
 
-1. CPU运算性能
-2. 磁盘IO性能
-3. 调度程序性能
-4. 内存分配及传输速度
-5. POSIX线程性能
-6. 数据库性能(OLTP基准测试)  
-目前sysbench主要支持 mysql,drizzle,pgsql,oracle 等几种数据库。
+1. CPU性能
+2. ディスク IO パフォーマンス
+3. スケジューラのパフォーマンス
+4. メモリ割り当てと転送速度
+5. POSIX スレッドのパフォーマンス
+6. データベースのパフォーマンス (OLTP ベンチマーク)
+   
+現在、sysbench は主に mysql、drizzle、pgsql、oracle などのいくつかのデータベースをサポートしています。
 
-## 编译安装
-编译非常简单，可参考 README 文档，简单步骤如下：
+## コンパイルしてインストールする
+コンパイルは非常に簡単です。README ドキュメントを参照できます。簡単な手順は次のとおりです。
 
 	cd /tmp/sysbench-0.4.12-1.1
 	./autogen.sh
 	./configure --with-mysql-includes=/usr/local/mysql/include --with-mysql-libs=/usr/local/mysql/lib && make
 
-	# 如果 make 没有报错，就会在 sysbench 目录下生成二进制命令行工具 sysbench
+	# make がエラーを報告しない場合、バイナリ コマンド ライン ツール sysbench が sysbench ディレクトリに生成されます。
 	ls -l sysbench
 	-rwxr-xr-x 1 root root 3293186 Sep 21 16:24 sysbench
 
-OLTP测试前准备
-初始化测试库环境（总共10个测试表，每个表 100000 条记录，填充随机生成的数据）：
+## OLTP テストの準備
+テスト ライブラリ環境を初期化します (合計 10 個のテスト テーブル、それぞれ 100,000 レコード、ランダムに生成されたデータが入力されます)：
 
 	cd /tmp/sysbench-0.4.12-1.1/sysbench
 	mysqladmin create sbtest
 
 	./sysbench --mysql-host=1.2.3.4 --mysql-port=3317 --mysql-user=tpcc --mysql-password=tpcc \
 	--test=tests/db/oltp.lua --oltp_tables_count=10 --oltp-table-size=100000 --rand-init=on prepare
-关于这几个参数的解释：
+これらのパラメータの説明:
 
-	--test=tests/db/oltp.lua 表示调用 tests/db/oltp.lua 脚本进行 oltp 模式测试
-	--oltp_tables_count=10 表示会生成 10 个测试表
-	--oltp-table-size=100000 表示每个测试表填充数据量为 100000 
-	--rand-init=on 表示每个测试表都是用随机数据来填充的
-如果在本机，也可以使用 –mysql-socket 指定 socket 文件来连接。加载测试数据时长视数据量而定，若过程比较久需要稍加耐心等待。
+	--test=tests/db/oltp.lua oltp モードのテストのために tests/db/oltp.lua スクリプトが呼び出されることを示します
+	--oltp_tables_count=10 10 個のテスト テーブルが生成されることを示します
+	--oltp-table-size=100000 各テスト テーブルに入力されたデータの量が 100000 であることを示します
+	--rand-init=on 各テスト テーブルにランダム データが入力されていることを示します
+このマシンを使用している場合は、–mysql-socket を使用して、接続する socketxxxt ファイルを指定することもできます。 テストデータの読み込みにかかる時間はデータ量によって異なりますので、時間がかかる場合は我慢が必要です。
 
-真实测试场景中，数据表建议不低于10个，单表数据量不低于500万行，当然了，要视服务器硬件配置而定。如果是配备了SSD或者PCIE SSD这种高IOPS设备的话，则建议单表数据量最少不低于1亿行。
+実際のテスト シナリオでは、10 個以上のデータ テーブルがあり、1 つのテーブルのデータ量が 500 万行以上であることをお勧めします (もちろん、サーバーのハードウェア構成によって異なります)。 SSD や PCIE SSD などの高 IOPS デバイスを搭載している場合は、1 つのテーブルのデータ量が 1 億行以上であることをお勧めします。
 
-四、进行OLTP测试
+## OLTP テストを実施する
 
-在上面初始化数据参数的基础上，再增加一些参数，即可开始进行测试了：
+上記の初期化データ パラメータに基づいて、さらにパラメータを追加すると、テストを開始できます。
 
 	./sysbench --mysql-host=1.2.3.4. --mysql-port=3306 --mysql-user=tpcc \
 	--mysql-password=tpcc --test=tests/db/oltp.lua --oltp_tables_count=10 \
 	--oltp-table-size=10000000 --num-threads=8 --oltp-read-only=off \
 	--report-interval=10 --rand-type=uniform --max-time=3600 \
 	--max-requests=0 --percentile=99 run >> ./log/sysbench_oltpX_8_20140921.log
-几个选项稍微解释下
+オプション 説明
 
-	--num-threads=8 表示发起 8个并发连接
-	--oltp-read-only=off 表示不要进行只读测试，也就是会采用读写混合模式测试
-	--report-interval=10 表示每10秒输出一次测试进度报告
-	--rand-type=uniform 表示随机类型为固定模式，其他几个可选随机模式：uniform(固定),gaussian(高斯),special(特定的),pareto(帕累托)
-	--max-time=120 表示最大执行时长为 120秒
-	--max-requests=0 表示总请求数为 0，因为上面已经定义了总执行时长，所以总请求数可以设定为 0；也可以只设定总请求数，不设定最大执行时长
-	--percentile=99 表示设定采样比例，默认是 95%，即丢弃1%的长请求，在剩余的99%里取最大值
-即：模拟 对10个表并发OLTP测试，每个表1000万行记录，持续压测时间为 1小时。
+	--num-threads=8 8 つの同時接続が開始されたことを示します
+	--oltp-read-only=off 読み取り専用テストを実行しないことを示します。つまり、読み取り/書き込み混合モード テストを使用します。
+	--report-interval=10 10秒ごとにテスト進捗レポートを出力することを示します
+	--rand-type=uniform ランダム タイプが固定モードであり、その他のいくつかのランダム モード (uniform、gaussian、special、pareto) であることを示します。
+	--max-time=120 最大実行時間が 120 秒であることを示します
+	--max-requests=0 リクエストの総数が0であることを示します. 総実行時間は上記で定義されているため, 総リクエスト数を0に設定することもできます. 最大実行時間を設定せずに総リクエスト数のみを設定することもできます.
+	--percentile=99 サンプリング率を設定することを示します。デフォルトは 95% です。つまり、長いリクエストの 1% を破棄し、残りの 99% で最大値を取ります
 
-真实测试场景中，建议持续压测时长不小于30分钟，否则测试数据可能不具参考意义。
+つまり、それぞれ 1,000 万行のレコードを持つ 10 個のテーブルで OLTP テストをシミュレートし、連続ストレス テストの時間は 1 時間です。
 
-五、测试结果解读：
+実際のテスト シナリオでは、継続的なストレス テストの時間を 30 分以上にすることをお勧めします。そうしないと、テスト データが参考にならなくなります。
 
-测试结果解读如下：
+## テスト結果の解釈:
+
+テスト結果は次のように解釈されます。
 
 	sysbench 0.5:  multi-threaded system evaluation benchmark
 
@@ -89,7 +88,7 @@ OLTP测试前准备
 
 
 	Threads started!
-	-- 每10秒钟报告一次测试结果，tps、每秒读、每秒写、99%以上的响应时长统计
+	-- 10 秒ごとのテスト結果、tps、1 秒あたりの読み取り、1 秒あたりの書き込み、および 99% を超える応答時間の統計をレポートします
 	[  10s] threads: 8, tps: 1111.51, reads/s: 15568.42, writes/s: 4446.13, response time: 9.95ms (99%)
 	[  20s] threads: 8, tps: 1121.90, reads/s: 15709.62, writes/s: 4487.80, response time: 9.78ms (99%)
 	[  30s] threads: 8, tps: 1120.00, reads/s: 15679.10, writes/s: 4480.20, response time: 9.84ms (99%)
@@ -98,24 +97,24 @@ OLTP测试前准备
 	[  60s] threads: 8, tps: 1119.30, reads/s: 15671.60, writes/s: 4476.50, response time: 9.99ms (99%)
 	OLTP test statistics:
 		queries performed:
-			read:                            938224    -- 读总数
-			write:                           268064    -- 写总数
-			other:                           134032    -- 其他操作总数(SELECT、INSERT、UPDATE、DELETE之外的操作，例如COMMIT等)
-			total:                           1340320    -- 全部总数
-		transactions:                        67016  (1116.83 per sec.)    -- 总事务数(每秒事务数)
-		deadlocks:                           0      (0.00 per sec.)    -- 发生死锁总数
-		read/write requests:                 1206288 (20103.01 per sec.)    -- 读写总数(每秒读写次数)
-		other operations:                    134032 (2233.67 per sec.)    -- 其他操作总数(每秒其他操作次数)
+			read:            938224    -- 読み取りの総数
+			write:           268064    -- 書き込みの総数
+			other:           134032    -- その他の操作の合計(COMMIT など、SELECT、INSERT、UPDATE、DELETE 以外の操作。)
+			total:           1340320    -- すべての合計
+		transactions:        67016  (1116.83 per sec.)    -- 合計トランザクション (1 秒あたりのトランザクション)
+		deadlocks:           0      (0.00 per sec.)    -- デッドロックの総数
+		read/write requests: 1206288 (20103.01 per sec.)    -- 読み取りと書き込みの合計数 (1 秒あたりの読み取りと書き込みの数)
+		other operations:    134032 (2233.67 per sec.)    -- その他の操作の合計 (1 秒あたりのその他の操作)
 
-	General statistics:    -- 一些统计结果
-		total time:                          60.0053s    -- 总耗时
-		total number of events:              67016    -- 共发生多少事务数
-		total time taken by event execution: 479.8171s    -- 所有事务耗时相加(不考虑并行因素)
-		response time:    -- 响应时长统计
-			min:                                  4.27ms    -- 最小耗时
-			avg:                                  7.16ms    -- 平均耗时
-			max:                                 13.80ms    -- 最长耗时
-			approx.  99 percentile:               9.88ms    -- 超过99%平均耗时
+	General statistics:    -- いくつかの統計
+		total time:          60.0053s    -- 合計時間
+		total number of events:              67016    -- 総取引
+		total time taken by event execution: 479.8171s    -- 時間のかかるすべてのトランザクションの追加 (同時実行要因を考慮しない)
+		response time:    -- 応答時間の統計
+			min:             4.27ms    -- 最短時間
+			avg:             7.16ms    -- 平均時間
+			max:             13.80ms    -- 最長の時間
+			approx.  99 percentile: 9.88ms    -- 99%以上の平均時間
 
 	Threads fairness:
 		events (avg/stddev):           8377.0000/44.33

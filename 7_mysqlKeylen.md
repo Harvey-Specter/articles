@@ -19,6 +19,16 @@ EXPLAIN 実行プランには、このクエリで選択されたインデック
 | user varchar(30) utf8  | key_len = 30*3+2+1 |動的列タイプ、2 byteを追加、NULL を許可、1 byteを追加|
 | detail text(10) utf8  | key_len = 30*3+2+1 |TEXT 列のインターセプトされた部分は、動的な列の型に 2byteを加えたものと見なされ、NULL が許可されます。|
 
+* 列タイプ,    key_len  , 述べる 
+* id int  , key_len = 4+1 = 5, NULL許可します，加1-byte
+* id int not null  , key_len = 4 ,NULL 許可されていません
+
+
+| user char(30) utf8  | key_len = 30*3+1 |NULL許可します|
+| user varchar(30) not null utf8  | key_len = 30*3+2 |动态列类型，加2-bytes|
+| user varchar(30) utf8  | key_len = 30*3+2+1 |動的列タイプ、2 byteを追加、NULL を許可、1 byteを追加|
+| detail text(10) utf8  | key_len = 30*3+2+1 |TEXT 列のインターセプトされた部分は、動的な列の型に 2byteを加えたものと見なされ、NULL が許可されます。|
+
 
 **key_len は、WHERE の条件付きフィルターで選択されたインデックス列のみを示し、ORDER BY/GROUP BY で選択されたインデックス列は含まれないことに注意してください。
 たとえば、結合インデックス idx1(c1, c2, c3) があり、3 つの列すべてが INT NOT NULL の場合、次の SQL 実行計画では、key_len の値は 12 ではなく 8 になります。：**

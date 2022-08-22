@@ -20,7 +20,7 @@ EXPLAIN 実行プランには、このクエリで選択されたインデック
 | detail text(10) utf8  | key_len = 30*3+2+1 |TEXT 列のインターセプトされた部分は、動的な列の型に 2byteを加えたものと見なされ、NULL が許可されます。|
 
 
-**备注，key_len 只指示了WHERE中用于条件过滤时被选中的索引列，是不包含 ORDER BY/GROUP BY 这部分被选中的索引列。
-例如，有个联合索引 idx1(c1, c2, c3)，3个列均是INT NOT NULL，那么下面的这个SQL执行计划中，key_len的值是8而不是12：**
+**key_len は、WHERE の条件付きフィルターで選択されたインデックス列のみを示し、ORDER BY/GROUP BY で選択されたインデックス列は含まれないことに注意してください。
+たとえば、結合インデックス idx1(c1, c2, c3) があり、3 つの列すべてが INT NOT NULL の場合、次の SQL 実行計画では、key_len の値は 12 ではなく 8 になります。：**
 
 > SELECT…WHERE c1=? AND c2=? ORDER BY c1;

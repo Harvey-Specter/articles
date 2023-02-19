@@ -180,3 +180,5 @@ performance 別表記：パフォーマンス
 的確 読み方：てきかく
 
 ffmpeg -i input.mp4 -vn -c:a copy output.aac
+
+酎

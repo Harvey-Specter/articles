@@ -34,7 +34,7 @@ https://github.com/Harvey-Specter/plunge_ui
 3/22（水）15-16 時 株式会社 データフォーシーズ
 2023/03/23 18:30 に スタート 株式会社 システムアイ
 2023/3/16(木) 13:00 - 14:00 に 株式会社 アシスト
-3 月 17 日（金）15:00-15:30 株式会社 LIVE BOARD
+3/24（金）16:00-17:00 の間　 株式会社 LIVE BOARD
 
 ① 日本は確かに少し遠いですが、私は日本が大好きで、発展した商業や教育制度があるから、日本で働きたいと思っています。
 
@@ -57,7 +57,7 @@ https://github.com/Harvey-Specter/plunge_ui
 
 ## 予約
 
-3 月 17 日（金）15:00-15:30 　株式会社 LIVE BOARD 　https://us06web.zoom.us/j/81743614664
+3/24（金）16:00-17:00 の間　株式会社 LIVE BOARD 　https://us06web.zoom.us/j/81743614664
 3 月 21 日 (火曜日) · 午後 2:00 ～ 3:00 　メディカルフロンティア　https://meet.google.com/gch-biib-amn
 3/22（水）15-16 時 株式会社 データフォーシーズ |
 2023/03/23 18:30 ～　株式会社 システムアイ 　https://us02web.zoom.us/j/82736692719?pwd=cXRNeVNuTW11U3AyajJ5RU9MbG9MQT09

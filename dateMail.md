@@ -23,7 +23,8 @@
 
 去年、私は GitHub で自分で作ったプロジェクトを共有しました。このプロジェクトは簡単に言えば日本の株式市場のデータを分析し、いくつかのパターンに基づいて初期のスクリーニングを行い、これらの強力な株式の中からより深いスクリーニングを行うことを容易にします。
 https://github.com/Harvey-Specter/plunge_ui
-データ収集/分析技術は Python/Golang
+データ収集/分析技術は Python/Golang を使用します
+https://github.com/Harvey-Specter
 バックグラウンド技術は PHP (Laravel) を使用し、フロントエンド技術は Typescript(Vue3) を使用します
 
 よろしくお願いします。

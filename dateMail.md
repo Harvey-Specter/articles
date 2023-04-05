@@ -66,7 +66,6 @@ https://github.com/Harvey-Specter/plunge_ui
 
 4月7日　13時開始　※1時間想定 URL：https://meet.google.com/joc-sdpn-tpo 080-2354-7099(朝日新聞社　浅沼)
 
-
 以下の時間帯をご利用いただけます (日本時間)
 
 4/03(月)　 10:30~14:00 開始 18:30~21:00 開始

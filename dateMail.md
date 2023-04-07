@@ -4,8 +4,11 @@
 ご連絡いただき誠にありがとうございます
 
 わかりました
-31日（金）13:00 に　(日本時間)
+31 日（金）13:00 に　(日本時間)
 
+どうぞよろしくお願いいたします。
+
+面接日ありがとうございます
 どうぞ、よろしくお願いいたします。
 
 小谷 様
@@ -14,8 +17,7 @@
 ご連絡いただき誠にありがとうございます
 
 はい、入社すれば東京の会社の近くに引っ越すつもりです。
-よろしくお願いいたします。
-
+どうぞよろしくお願いいたします。
 
 小泉 様
 
@@ -31,7 +33,7 @@ https://github.com/Harvey-Specter/plunge_ui
 データ収集/分析技術は Python/Golang を使用します
 バックグラウンド技術は PHP (Laravel) を使用し、フロントエンド技術は Typescript(Vue3) を使用します
 
-よろしくお願いします。
+どうぞよろしくお願いします。
 
 ① 日本は確かに少し遠いですが、私は日本が大好きで、発展した商業や教育制度があるから、日本で働きたいと思っています。
 
@@ -58,14 +60,19 @@ https://github.com/Harvey-Specter/plunge_ui
 
 ## 予約
 
-3月 29日 (水曜日)⋅午後12:00 ・https://meet.google.com/off-xxmz-pcc 株式会社 gumi 小倉
-
-3/30(木)　15:00~16:00(日本時間) 株式会社 ハイベロシティ 面接URL：https://zoom.us/j/8239598308?pwd=MUZrTUxRS2xlM2tnZWM4aFNreFN4UT09
-
-31日（金）13:00 に　(日本時間) HAIRCAMP 株式会社 |
-
-4月7日　13時開始　※1時間想定 URL：https://meet.google.com/joc-sdpn-tpo 080-2354-7099(朝日新聞社　浅沼)
-
+3/21 (火) · 午後 2:00 ～ 3:00 　メディカルフロンティア　https://meet.google.com/gch-biib-amn
+3/22（水）15-16 時 株式会社 データフォーシーズ
+3/23 (木) 18:30 ～　株式会社 システムアイ 　https://us02web.zoom.us/j/82736692719?pwd=cXRNeVNuTW11U3AyajJ5RU9MbG9MQT09
+3/24（金）16:00-17:00 の間　株式会社 LIVE BOARD 　https://us06web.zoom.us/j/81743614664
+3/30(木)　 15:00~17:00(日本時間) 株式会社 ハイベロシティ |
+3 月 31 日(金)　 12:00 開始 〜 13:00 終了
+3 月 29 日 (水曜日)⋅ 午後 12:00 ・https://meet.google.com/off-xxmz-pcc 株式会社 gumi 小倉
+3/30(木)　 15:00~16:00(日本時間) 株式会社 ハイベロシティ 面接 URL：https://zoom.us/j/8239598308?pwd=MUZrTUxRS2xlM2tnZWM4aFNreFN4UT09
+31 日（金）13:00 に　(日本時間) HAIRCAMP 株式会社 |
+４月３日（月）13：00 開始 インヴァスト 株式会社 https://invast.zoom.us/j/85611919275?pwd=NVVldXJWRWVqZ1RBd29pMWRIR0hxdz09
+4 月 7 日　 13 時開始　※1 時間想定 URL：https://meet.google.com/joc-sdpn-tpo 080-2354-7099(朝日新聞社　浅沼)
+4/11 16:00 ～ ビズメイツ 株式会社 https://meet.google.com/aei-qcpg-zkc
+4 月 13 日（木）15 時　株式会社バーナードソフト
 以下の時間帯をご利用いただけます (日本時間)
 
 4/11(月)　 10:30~14:00 開始 18:30~21:00 開始

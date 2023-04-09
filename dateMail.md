@@ -71,7 +71,8 @@ https://github.com/Harvey-Specter/plunge_ui
 31 日（金）13:00 に　(日本時間) HAIRCAMP 株式会社 |
 ４月３日（月）13：00 開始 インヴァスト 株式会社 https://invast.zoom.us/j/85611919275?pwd=NVVldXJWRWVqZ1RBd29pMWRIR0hxdz09
 4 月 7 日　 13 時開始　※1 時間想定 URL：https://meet.google.com/joc-sdpn-tpo 080-2354-7099(朝日新聞社　浅沼)
-4/11 16:00 ～ ビズメイツ 株式会社 https://meet.google.com/aei-qcpg-zkc
+4/11 16:00 ～ ビズメイツ 株式会社 https://meet.google.com/aei-qcpg-zkc Green
+4月11日（火）20時00分開始 九電ビジネスソリューションズ株式会社 https://meet.google.com/mto-ffsz-hic doda
 4 月 13 日（木）15 時　株式会社バーナードソフト
 以下の時間帯をご利用いただけます (日本時間)
 

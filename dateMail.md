@@ -80,7 +80,7 @@ https://github.com/Harvey-Specter/plunge_ui
 ４月３日（月）13：00 開始 インヴァスト 株式会社 https://invast.zoom.us/j/85611919275?pwd=NVVldXJWRWVqZ1RBd29pMWRIR0hxdz09
 4 月 7 日　 13 時開始　※1 時間想定 URL：https://meet.google.com/joc-sdpn-tpo 080-2354-7099(朝日新聞社　浅沼)
 4/11 16:00 ～ ビズメイツ 株式会社 https://meet.google.com/aei-qcpg-zkc Green
-4 月 11 日（火）20 時 00 分開始 九電ビジネスソリューションズ株式会社 https://meet.google.com/mto-ffsz-hic doda
+4 月 11 日（火）20 時 00 分開始 九電ビジネスソリューションズ株式会社 https://meet.google.com/mto-ffsz-hic doda https://doda.jp/dcfront/message/messageList/?appid=1127096822
 4/12 (水) 15:00 - 16:00 https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmZlNzdlMzYtY2E1ZS00MzA0LTgwOGQtYTZhZjQ3NWUwNjc0%40thread.v2/0?context=%7b%22Tid%22%3a%22194fa626-af29-4c0f-80ad-bce190c5d9c7%22%2c%22Oid%22%3a%229e2e30f9-c1ec-4125-99d4-016dd8654f33%22%7d
 4 月 13 日 (木曜日) 12:30 ～ 株式会社 アイティ・フォレスト |
 4 月 13 日（木）15 時　株式会社バーナードソフト

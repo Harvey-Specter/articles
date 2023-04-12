@@ -93,6 +93,8 @@ Web meeting room
 https://us05web.zoom.us/j/86751367378?pwd=QWJpNXl4ekdzdktMNVFXZGhsL0dWQT09
 Meeting ID：867 5136 7378
 
+4 月 17 日(月)　株式会社エンジーニアスからのメッセージ 19:00 ～ https://us04web.zoom.us/j/6251401488?pwd=a25ScEl6bisvM1NxdU0wZWcvdkRIdz09 https://doda.jp/dcfront/message/messageList/?appid=1127146946
+
 以下の時間帯をご利用いただけます (日本時間)
 
 4/12 　 12:00~21:00 開始

@@ -18,6 +18,8 @@
 お世話になっております。
 ご連絡いただき誠にありがとうございます
 
+ご検討いただき、ありがとうございます。貴社にも興味を持ち、またお会いできることを楽しみにしています
+
 はい、入社すれば東京の会社の近くに引っ越すつもりです。
 どうぞよろしくお願いいたします。
 
@@ -85,12 +87,11 @@ https://github.com/Harvey-Specter/plunge_ui
 4/12 (水) 15:00 - 16:00 https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmZlNzdlMzYtY2E1ZS00MzA0LTgwOGQtYTZhZjQ3NWUwNjc0%40thread.v2/0?context=%7b%22Tid%22%3a%22194fa626-af29-4c0f-80ad-bce190c5d9c7%22%2c%22Oid%22%3a%229e2e30f9-c1ec-4125-99d4-016dd8654f33%22%7d
 4 月 13 日 (木曜日) 12:30 ～ 株式会社 アイティ・フォレスト |
 4 月 13 日（木）15 時　株式会社バーナードソフト dado
-4/13	(木) 20:15 meet.google.com/own-fpox-acb 株式会社ＳｅｅＤからのメッセージ https://doda.jp/dcfront/message/messageList/?appid=1127119102
+4/13 (木) 20:15 meet.google.com/own-fpox-acb 株式会社ＳｅｅＤからのメッセージ https://doda.jp/dcfront/message/messageList/?appid=1127119102
 14/4/2023 (Fri) 12:30 - 13:00 株式会社Ｗｉｓｄｏｍ　Ｋｅｙ https://doda.jp/dcfront/message/messageList/?appid=1127119050
 Web meeting room
 https://us05web.zoom.us/j/86751367378?pwd=QWJpNXl4ekdzdktMNVFXZGhsL0dWQT09
 Meeting ID：867 5136 7378
-
 
 以下の時間帯をご利用いただけます (日本時間)
 

@@ -120,6 +120,8 @@ Meeting ID：867 5136 7378
 では 24 日(月)　 13：00 　開始
 URL：　https://meet.google.com/xrm-raos-ypa WAmazing 株式会社
 
+2023/4/26(水) 12:00 - 13:00 https://meet.google.com/gck-nggh-bsc 株式会社 ジーニー |
+
 以下の時間帯をご利用いただけます (日本時間)
 
 4/12 　 12:00~21:00 開始

@@ -51,6 +51,21 @@ https://github.com/Harvey-Specter/plunge_ui
 バックグラウンド技術は PHP (Laravel) を使用します
 フロントエンド技術は Typescript(Vue3) を使用します
 
+java と javascript の両方の経験があります、Java テストを受験してください
+
+以下の時間帯をご利用いただけます (日本時間)
+4 月 24 日(月) 14:00~21:00 開始
+4 月 25 日(火) 13:00~15:00; 17:00~21:00 開始  
+4 月 26 日(水) 14:00~21:00 開始
+4 月 27 日(木) 15:00~21:00 開始
+
+どうぞよろしくお願いします。
+
+わかりました
+面接日ありがとうございます
+4/25（火）16:00 に　(日本時間)
+お会いできることを楽しみにしています
+
 【就業可能エリア】
 東京、神奈川、千葉、埼玉も大丈夫です。
 
@@ -58,8 +73,6 @@ https://github.com/Harvey-Specter/plunge_ui
 4/25(火) 　 12:00~19:00 開始
 4/27(木) 　 12:00~19:00 開始
 4/28(金)　 12:00~19:00 開始
-
-どうぞよろしくお願いします。
 
 面接日ありがとうございます
 4 月 20 日(木)　 14:00 に　(日本時間)
@@ -125,12 +138,16 @@ Meeting ID：867 5136 7378
 
 4 月 19 日（水）16:00-17:00 東京デジタルアイディアーズ 株式会社 green
 4 月 20 日(木)　 14:00 株式会社リッチからのメッセージ doda
-では 24 日(月)　 13：00 　開始
-URL：　https://meet.google.com/xrm-raos-ypa WAmazing 株式会社
 
+4 月 24 日(月)　 13：00 　開始 URL：　https://meet.google.com/xrm-raos-ypa WAmazing 株式会社
+4/25（火）16:00 https://doda.jp/dcfront/message/messageList/?appid=1127255325
 2023/4/26(水) 12:00 - 13:00 https://meet.google.com/gck-nggh-bsc 株式会社 ジーニー |
-
-以下の時間帯をご利用いただけます (日本時間)
+》》》》》》》》》》》》》》》》》》todo https://doda.jp/dcfront/message/messageList/?appid=1127255280
+日時】4 月 27 日（木）14 時 00 分～　※30 分～ 1 時間を予定しております
+【実施方法】オンライン（MicrosoftTeams）
+【参加 URL】時間になりましたら下記 URL からご参加ください。
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGRhYTE5MTktNmVhOS00NzQ4LTg2MDMtNGRjZGI3MDBmMTUz%40thread.v2/0?context=%7b%22Tid%22%3a%22dc9564f7-ab4a-4c3e-9951-8aaf91f063a6%22%2c%22Oid%22%3a%228580eece-529d-4c19-863e-4396ef724483%22%7d
+4 月 27 日（木）19:00 ～ 20:00 デジタルフォルン 会社説明会 開催中！！https://www.vorn.co.jp/recruitingsite/recruitment/midcareer
 
 4/12 　 12:00~21:00 開始
 4/14 　 12:00~14:00 19:00-21:00 開始

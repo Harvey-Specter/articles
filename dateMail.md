@@ -4,12 +4,16 @@
 
 はい、入社すれば豊田市の会社の近くに引っ越すつもりです。
 
+はい、私は日本語を勉強しています
+
+丸山 様
+
 お世話になっております。
 ご連絡いただき誠にありがとうございます
 
 わかりました
 面接日ありがとうございます
-4 月 20 日(木)　 13:00 に　(日本時間)
+4 月 27 日 (木曜日)⋅17:00 ～ に　(日本時間)
 
 お会いできることを楽しみにしています
 
@@ -142,11 +146,27 @@ Meeting ID：867 5136 7378
 4 月 24 日(月)　 13：00 　開始 URL：　https://meet.google.com/xrm-raos-ypa WAmazing 株式会社
 4/25（火）16:00 https://doda.jp/dcfront/message/messageList/?appid=1127255325
 2023/4/26(水) 12:00 - 13:00 https://meet.google.com/gck-nggh-bsc 株式会社 ジーニー |
+■4/26（水）14:00 開始
+面接の前に ①Java テスト、② 日本語読解力テストを実施します。
+テスト開始時間になりましたらテストのファイルをメールで送ります。
+
+https://doda.jp/dcfront/message/messageList/?appid=1127083613
+Java テストの制限時間は 80 分（14:00 ～ 15:20）、日本語読解力テストは 20 分（15:20 ～ 15:40）です。
+制限時間になりましたらファイルをメールで返送してください。
+その後、オンライン面接を行います。
+
+■ 面接時間（15:40 ～）になりましたら下記 URL より入室をお願いいたします。
+meet.google.com/qpe-zszm-vou
+
+■ 面接官
+栗原
+
 》》》》》》》》》》》》》》》》》》todo https://doda.jp/dcfront/message/messageList/?appid=1127255280
 日時】4 月 27 日（木）14 時 00 分～　※30 分～ 1 時間を予定しております
 【実施方法】オンライン（MicrosoftTeams）
 【参加 URL】時間になりましたら下記 URL からご参加ください。
 https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGRhYTE5MTktNmVhOS00NzQ4LTg2MDMtNGRjZGI3MDBmMTUz%40thread.v2/0?context=%7b%22Tid%22%3a%22dc9564f7-ab4a-4c3e-9951-8aaf91f063a6%22%2c%22Oid%22%3a%228580eece-529d-4c19-863e-4396ef724483%22%7d
+4 月 27 日 (木曜日)⋅17:00 ～ に　(日本時間) meet.google.com/rps-zxxo-xig 株式会社 BTM green
 4 月 27 日（木）19:00 ～ 20:00 デジタルフォルン 会社説明会 開催中！！https://www.vorn.co.jp/recruitingsite/recruitment/midcareer
 
 4/12 　 12:00~21:00 開始
@@ -284,6 +304,8 @@ https://forms.gle/JfRp959FwGm7otPx8
 [上句话有错误吗]请翻译成日语
 
 [加班正好去跑步]请翻译成日语
+
+[我刚说的是做题好像只能缓解焦虑]请翻译成日语
 
 残業していたら、ちょうどジョギングに行ってきました
 

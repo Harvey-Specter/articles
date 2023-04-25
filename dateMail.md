@@ -2,14 +2,12 @@
 
 はい、入社すれば豊田市の会社の近くに引っ越すつもりです。
 
-はい、入社すれば豊田市の会社の近くに引っ越すつもりです。
-
-はい、私は日本語を勉強しています
-
-丸山 様
-
 お世話になっております。
 ご連絡いただき誠にありがとうございます
+
+すみません、今週の水曜日は出張なので、火曜日しか時間がありません。 または、週月曜日から翌週の木曜日まで
+
+ご迷惑をおかけして申し訳ありません
 
 わかりました
 面接日ありがとうございます
@@ -167,6 +165,9 @@ meet.google.com/qpe-zszm-vou
 https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGRhYTE5MTktNmVhOS00NzQ4LTg2MDMtNGRjZGI3MDBmMTUz%40thread.v2/0?context=%7b%22Tid%22%3a%22dc9564f7-ab4a-4c3e-9951-8aaf91f063a6%22%2c%22Oid%22%3a%228580eece-529d-4c19-863e-4396ef724483%22%7d
 4 月 27 日 (木曜日)⋅17:00 ～ に　(日本時間) meet.google.com/rps-zxxo-xig 株式会社 BTM green
 4 月 27 日（木）19:00 ～ 20:00 デジタルフォルン 会社説明会 開催中！！https://www.vorn.co.jp/recruitingsite/recruitment/midcareer
+
+5月8日(月)15時以降でご対応は可能でしょうか。
+https://doda.jp/dcfront/message/messageList/?appid=1127218707
 
 4/12 　 12:00~21:00 開始
 4/14 　 12:00~14:00 19:00-21:00 開始

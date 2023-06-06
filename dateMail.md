@@ -380,13 +380,10 @@ N2 のリスニングを終えて、N3 の会話は特に誠実だと感じま�
 体言止め
 くだけた表現 (casual expressions)
 
-1 is starting a new election at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:01.175 CST [orderer.consensus.etcdraft] becomePreCandidate -> INFO 220 1 became pre-candidate at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:01.176 CST [orderer.consensus.etcdraft] poll -> INFO 221 1 received MsgPreVoteResp from 1 at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:01.176 CST [orderer.consensus.etcdraft] campaign -> INFO 222 1 [logterm: 1, index: 3] sent MsgPreVote request to 2 at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:01.176 CST [orderer.consensus.etcdraft] campaign -> INFO 223 1 [logterm: 1, index: 3] sent MsgPreVote request to 3 at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:09.675 CST [orderer.consensus.etcdraft] Step -> INFO 224 1 is starting a new election at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:09.675 CST [orderer.consensus.etcdraft] becomePreCandidate -> INFO 225 1 became pre-candidate at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:09.676 CST [orderer.consensus.etcdraft] poll -> INFO 226 1 received MsgPreVoteResp from 1 at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:09.676 CST [orderer.consensus.etcdraft] campaign -> INFO 227 1 [logterm: 1, index: 3] sent MsgPreVote request to 2 at term 1 channel=orderer-syschain node=1
-2023-05-12 14:51:09.676 CST [orderer.consensus.etcdraft] campaign -> INFO 228 1 [logterm: 1, index: 3] sent MsgPreVote request to 3 at term 1 channel=orderer-syschain node=1
+[ねえ、今度の日曜日、どっか行かない？
+うん、いいよ、何したい？映画が見たいって言ってなかったっけ
+うん。でも、調べてみたら、いまいちなんだよね、今。
+そうか。久しぶりに車でどっか行くのも良いけど、どこも道が混んでるかもなあ、今の時期。
+ねえ。バーゲンは？　私、シャツが見たいな。
+そうしようか。僕も新しいネクタイが欲しいし。あ、そうだ。それより、面白そうな展覧会やってるんだよ。若いアーティストはあんまり興味ない？ちょうど今度の日曜日までだし。
+あんまり知らないけど、まあ、たまには良いかな。バーゲンはまだ続くしね] 这篇文章是日语阅读题，请翻译成汉语,并列出文章中对应蓝宝书中的语法.

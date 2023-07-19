@@ -21,3 +21,19 @@
 
 这次经历让我明白了沟通和协作在团队项目中的重要性，并学到了如何通过优化沟通渠道、规范化流程、提供支持和促进团队合作文化来解决团队合作中的挑战。
 この経験を通じて、チームプロジェクトにおけるコミュニケーションと協力の重要性を認識し、コミュニケーションチャネルの最適化、プロセスの標準化、サポートの提供、チーム協力文化の促進などの手法を通じてチーム協力の課題を解決する方法を学びました。
+
+In a team project supported by Neusoft Group, we encountered a challenge related to communication and collaboration among team members. Due to the large scale of the project, team members were located in different geographical locations, which made communication and collaboration more complex.
+
+To address this issue, I implemented the following measures:
+
+Optimization of communication channels: I advocated for the use of more online collaboration tools and communication channels within the team, such as team chat tools like Feishu and collaborative editing tools like WPS Docs. This allowed team members to conveniently communicate, share documents, and collaborate in real-time, thereby improving communication efficiency.
+
+Standardization of communication processes: I established clear communication processes, including regular team meetings and progress updates, as well as tracking and documenting issues and decisions. This enabled team members to stay informed about project progress and issues, and actively participate in decision-making and provide feedback.
+
+Provision of technical training and support: I recognized that there might be skill gaps among team members in certain technical areas. As a result, I organized technical training sessions and knowledge-sharing events to enhance the team's technical capabilities. I also encouraged team members to support and collaborate with each other to collectively solve technical challenges.
+
+Promotion of a collaborative team culture: I encouraged team members to foster positive collaborative relationships and advocated for a culture of mutual support and respect within the team. I organized team-building activities and team dinners to facilitate mutual understanding and trust, and enhance team cohesion.
+
+Through these measures, we successfully improved communication and collaboration among team members. Team members engaged in more frequent communication and collaboration, resulting in improved speed and quality of problem-solving. Additionally, the team atmosphere became more positive, and the collaborative relationships among members were strengthened.
+
+This experience has helped me recognize the importance of communication and collaboration in team projects, and I have learned how to address collaboration challenges by optimizing communication channels, standardizing processes, providing support, and fostering a collaborative team culture.

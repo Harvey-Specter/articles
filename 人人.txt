@@ -21,3 +21,32 @@
 14. 人人网のデータセンターで使用される技術
     これは人人網で使用された技術です。人人網の後半(こうはん)では、運用業務の大部分(だいぶぶん)は自動化(じどうか)されており、日々(ひび)レポートの確認(かくにん)やシステムの健康(けんこう)チェックを行うだけです。
     上記の部分について何か質問はありますか？
+
+10. Responsibilities at Renren
+i) Renren has 400 million users, with approximately 10 million online users daily, primarily consisting of students.
+j) The website requires extensive data statistics every day for product optimization and user growth. To address this, we developed a statistics platform and incorporated periodic statistical reports into the platform.
+k) Once development of a product is complete, it is necessary to submit the SQL statements in the code for review by us. The criteria for review commonly include the use of indexes in SQL statements and the prohibition of aggregate queries.
+11. High Availability Solution for Renren's MySQL Database
+l) The website has approximately 2,000 MySQL database instances.
+m) We utilize the Master High Availability (MHA) solution for high availability, monitoring the entire database cluster with Zabbix and creating database backups using xtrabackup.
+n) Due to the large number of users, we perform sharding (partitioning) to avoid excessive data volume in a single table.】
+
+(Note: The translation assumes that the numbers mentioned in point 10 correspond to the original text.)
+
+12. Performing Failover with MHA
+Here is a brief explanation of the workflow using MHA:
+o) To ensure data consistency, MySQL databases utilize semi-sync replication to synchronize the master and slave.
+p) When an MHA manager detects a failure in the master database, the selection of a new master database begins.
+q) In that case, the MHA manager calls a script to determine which slave is the most up-to-date and sets it as the new master, reconfiguring the pointer of the other slave to the new master to establish the relationship of the new master-slave.
+r) A virtual IP is set for the new master.
+s) The administrator is alerted via email or SMS.
+13. MySQL Data Statistics Platform
+Our department is also responsible for the company's data statistics requirements.
+t) To address periodic statistical requirements, we developed a statistics platform. Colleagues from the business department can view statistical reports on the platform.
+u) With numerous daily statistical requirements and distributed data across different databases, we developed a framework using the Python language to perform cross-database statistics.
+v) With this framework, complex queries spanning databases can be executed with just a few lines of code.
+14. Technologies Used at Renren Data Center
+These are the technologies utilized at Renren. In the latter part of Renren, most of the operational tasks are automated, involving only daily report checks and system health monitoring.
+Do you have any questions regarding the aforementioned points?】
+
+(Note: The translation assumes that the colors mentioned in point 17 correspond to visual elements in the original diagram.

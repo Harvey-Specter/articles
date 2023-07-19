@@ -5,3 +5,13 @@
 データテーブルのレコードが多(おお)すぎるか、あるフィールドの長さが大きすぎる場合(ばあい)、通常、データ量が1000万以上に達(たっ)すると性能(せいのう)の問題が発生(はっせい)しやすくなります。
 
 GROUP BYを使用した集計(しゅうけい)クエリの使用は、パフォーマンスの問題を引(ひ)き起(お)こしやすいです。
+
+I have extensive experience in optimizing SQL queries, and performance issues in SQL queries are commonly caused by the following three problems:
+
+Improper or unused indexes: This type of problem can be resolved by examining the execution plan of the SQL query and identifying appropriate index usage.
+
+Large number of records in data tables or excessively long field lengths: When the data volume exceeds millions of records or when a field has a very large length, performance issues are more likely to occur.
+
+Usage of GROUP BY in aggregate queries: The use of GROUP BY in aggregate queries can often lead to performance problems.】
+
+(Note: The translation assumes that the numbers mentioned in the original text correspond to the points mentioned in the translation.)

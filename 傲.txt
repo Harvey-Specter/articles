@@ -1,3 +1,6 @@
 過去(かこ)のプロジェクトの中で、一番自慢できるプロジェクトはどれですか？そのプロジェクトで担当した役割、またそこで直面(ちょくめん)した課題(かだい)とそれをどのように解決(かいけつ)したかについて説明してください
 我在东软时候开发的区块链应用平台,这个平台是基于Hyperledger Fabric的二次开发,我在这个项目中负责了整个项目的设计和开发,这个平台的难点在于如何优化区块链的性能并将区块链技术应用到实际的业务场景中,通过研究Hyperledger Fabric的源代码,扩展和优化了它的很多功能,比如支持多种加密算法,支持多种状态数据库,支持多种容器,能够自动生成智能合约等等.
+
 私が東软で開発したブロックチェーンアプリケーションプラットフォームは、Hyperledger Fabricをベースにした二次開発です。このプロジェクトでは、プラットフォーム全体の設計と開発を担当しました。このプラットフォームの難点(なんてん)は、ブロックチェーンのパフォーマンスを最適化し、ブロックチェーン技術を実際のビジネスシーンに適用する方法です。Hyperledger Fabricのソースコードを研究(けんきゅう)し、さまざまな機能を拡張(かくちょう)・最適化しました。例えば、さまざまな暗号化(あんごうか)アルゴリズムのサポート、さまざまな状態(じょうたい)データベースのサポート、さまざまなコンテナのサポート、スマートコントラクトの自動生成(せいせい)などです。
+
+I was involved in the design and development of a blockchain application platform during my time at Neusoft. This platform was a secondary development based on Hyperledger Fabric. The main challenge of this project was to optimize the performance of the blockchain and apply blockchain technology to real-world business scenarios. By studying the source code of Hyperledger Fabric, I extended and optimized many of its functionalities. For example, I added support for multiple encryption algorithms, multiple state databases, multiple containers, and automated smart contract generation, among other enhancements.

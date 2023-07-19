@@ -26,3 +26,21 @@
 
 总的来说，团队负责人是一个多面手，需要在项目管理、团队领导、技术指导和人员管理等方面具备全面的能力。他们的职责是确保团队高效运作、项目成功交付，并促进团队成员的成长和发展。
 まとめると、チームリーダーはプロジェクト管理、チームリーダーシップ、技術指導(しどう)、人材(じんざい)管理など、さまざまな業務を担当します。彼らの責任は、チームの効率(こうりつ)的な運営(うんえい)、プロジェクトの成功(せいこう)への貢献(こうけん)、メンバーの成長と発展を促進(そくしん)することです。
+
+As a Team Leader in a software development team, you are typically responsible for the following tasks:
+
+Project Management: Responsible for project planning, organization, and management. This includes creating project plans, setting milestones, assigning tasks and resources to ensure timely project delivery and meet quality standards.
+
+Team Leadership: As the leader of the team, you provide guidance and support to team members, motivating them to achieve individual and team goals. Team Leaders should foster a spirit of collaboration, encourage communication, and promote knowledge sharing.
+
+Technical Guidance: At the technical level, Team Leaders should have extensive technical experience and expertise. They provide technical guidance and advice to team members, solve technical challenges, and ensure the team follows best practices in development.
+
+Personnel Management: Responsible for managing team members, including recruitment, training, and performance evaluations. Team Leaders need to understand the capabilities and interests of team members, assign work tasks effectively, and provide necessary training and development opportunities.
+
+Communication and Coordination: Team Leaders act as a bridge for communication within the team and with external stakeholders. They need to effectively communicate and coordinate with other teams, project managers, and stakeholders to ensure smooth information flow and project progress.
+
+Risk Management: Responsible for identifying risks and issues in the project and developing appropriate mitigation measures. Team Leaders need to address issues promptly and minimize the impact of risks on project progress and quality.
+
+Quality Control: Ensure quality control measures are implemented throughout the software development process, including code reviews, unit testing, and integration testing. Team Leaders need to ensure the team adheres to best practices and standards to deliver high-quality software products.
+
+Overall, Team Leaders are versatile individuals who need to possess comprehensive skills in project management, team leadership, technical guidance, and personnel management. Their responsibilities include ensuring efficient team operations, successful project delivery, and promoting the growth and development of team members.

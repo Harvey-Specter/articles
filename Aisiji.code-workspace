@@ -1,0 +1,31 @@
+{
+  "folders": [
+	{
+		"path": "../Aisiji"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../../go/src/plunge"
+	},
+	{
+		"path": "../../../tsdSpace/echotrust-superior/echotrust-backend"
+	},
+	{
+		"path": "../../../tsdSpace/kubernetes-client"
+	},
+	{
+		"path": "../mysite"
+	},
+	{
+		"path": "../drf-tutorial"
+	}
+],
+  "settings": {
+    "i18n-ally.localesPaths": [
+      "src/i18n",
+      "src/i18n/languages"
+    ]
+  }
+}

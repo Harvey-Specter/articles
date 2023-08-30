@@ -148,7 +148,7 @@ lihong671@gmail.com
 
 資料はメールで送信しました
 
-松田 様
+採用担当者様
 
 お世話になっております。
 ご連絡いただき誠にありがとうございます
@@ -162,7 +162,7 @@ lihong671@gmail.com
 私は Web システムの開発や Linux/Unix 環境でのデータベースのメンテナンスが得意で、仕事でよく使うプログラミング言語は PHP、Java、JavaScript、Go、Python です
 
 去年、私は GitHub で自分で作ったプロジェクトを共有しました。このプロジェクトは簡単に言えば日本の株式市場のデータを分析し、いくつかのパターンに基づいて初期のスクリーニングを行い、これらの強力な株式の中からより深いスクリーニングを行うことを容易にします。
-プロジェクト URL：https://github.com/Harvey-Specter/plunge_ui
+プロジェクト URL：https://github.com/Harvey-Specter/plunge_api
 デモの URL：https://plunge230724.onrender.com/
 フロントエンド技術は Typescript/Javascript(Vue3) を使用します
 バックグラウンド技術は PHP (Laravel) を使用します

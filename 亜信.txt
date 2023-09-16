@@ -1,7 +1,7 @@
 6.亜信での職務経験
-  亜信において、私は主に電信業務サポートシステム（BSS）の会計(かいけい)管理モジュールの設計と開発、システムの詳細設計文書(しょうさいせっけいぶんしょ)と操作(そうさ)マニュアルの作成(さくせい)を担当していました。2008 年に製品を納品(のうひん)し、その後は(あとは)Oracle データベースのメンテナンスを担当し、主にデータベースのストレージの拡張(かくちょう)、健康(けんこう)チェック、SQL の最適化を行っていました。また、北京電信のカスタマーサービスからのフィードバックの問題を処理(しょり)するのを手伝っていました。
-  それでは、この業務サポートシステムを簡単に見てみましょう。
+  亜信において、私は主に電信業務サポートシステム（BSS）の会計(かいけい)管理モジュールの設計と開発、システムの詳細設計文書(しょうさいせっけいぶんしょ)と操作(そうさ)マニュアルの作成(さくせい)を担当していました。2008 年に製品を納品(のうひん)し、その後は(あとは)Oracle データベースのメンテナンスを担当し、主にデータベースのストレージ(storage)の拡張(かくちょう)、健康(けんこう)チェック(check)、SQL の最適化を行っていました。また、北京電信のカスタマー(custom)サービス(service)からのフィードバック(feedback)の問題を処理(しょり)するのを手伝っていました。
 
+  それでは、この業務サポートシステムを簡単に見てみましょう。
 At Asiainfo, my main responsibilities included designing and developing the accounting management module of the Business Support System (BSS) for the telecommunication industry. I was also responsible for creating detailed system design documents and operation manuals. In 2008, I delivered the product, after which I took on the maintenance of the Oracle database. My tasks primarily involved database storage expansion, health checks, and SQL optimization. Additionally, I assisted in handling feedback and issues from Beijing Telecom's customer service.
 Now, let's take a brief look at this Business Support System.
 

@@ -1,0 +1,5 @@
+create database wp default character set utf8mb4 collate utf8mb4_unicode_ci;
+
+docker run -it --name mywordpress2 -p 9999:80 -v /xampp/wordpress:/var/www/html -d wordpress
+
+host.docker.internal

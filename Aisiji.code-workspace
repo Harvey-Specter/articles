@@ -23,6 +23,9 @@
     },
     {
       "path": "../../../../go/src/dashboard"
+    },
+    {
+      "path": "../../../../../../xampp/apache"
     }
   ],
   "settings": {

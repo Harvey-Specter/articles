@@ -23,10 +23,10 @@ liang.qian@kasugai-co.jp
 
 --项目目的及作用--
 この製品の目的(もくてき)は、ブロックチェーンの特性(とくせい)を活用(かつよう)してデータ(data)とトランザクション(transaction)プログラム(program)のセキュリティ(scrurity)と信頼(しんらい)性を確保(かくほ)することです。たとえば、トランザクション(transaction)の両当事者(りょうとうじしゃ)のデータはそれぞれの状態(じょうたい)データベース(database)に保存(ほぞん)され、トランザクション(transaction)の両当事者(りょうとうじしゃ)のプログラム(program)はスマート(smart)コントラクト(contract)の形式(けいしき)でそれぞれのブロックチェーン(blockchain)ノード(node)に展開されます。データまたは(smart)コントラクト(contract)の一方(いっぽう)的な変更(へんこう)は、後続(こうぞく)のトランザクション(transaction)の失敗(しっぱい)を引き起こします。これにより、データとトランザクション(transaction)ロジック(logic)がすべての関係(かんけい)者にとって可視(かし)であることと、データ(data)とプログラム(program)が改ざんされないことが保証(ほしょう)されます。
-取引(とりひき)関係者の承認(しょうにん)を得(え)た場合のみ、(smart)コントラクト(contract)の変更や取引データの変更はできます。
+取引(とりひき)関係者の承認(しょうにん)を得(え)た場合のみ、(smart)コントラクト(contract)の変更や取引データ(とりひき)の変更はできます。
 
 --难点--
-私が東软で開発したブロックチェーンアプリケーションプラットフォームは、Hyperledger Fabricをベースにした二次開発です。このプロジェクト(project)では、全体の設計と開発を担当しました。このプラットフォームの難点(なんてん)は、ブロックチェーンのパフォーマンス(proformance)を最適化し、ブロックチェーン技術を実際(じっさい)のビジネスシーンに適用する方法です。Hyperledger Fabricのソースコードを研究(けんきゅう)し、さまざまな機能を拡張(かくちょう)・最適化しました。例えば、さまざまな暗号化(あんごうか)アルゴリズム(algorithm)のサポート、さまざまな状態(じょうたい)データベースのサポート、さまざまなコンテナ(container)のサポート、スマートコントラクトの自動生成(せいせい)などです。
+私が東软で開発したブロックチェーンアプリケーションプラットフォームは、Hyperledger Fabricをベースにした二次開発です。このプロジェクト(project)では、全体の設計と開発を担当しました。このプラットフォームの難点(なんてん)は、blockchainのパフォーマンス(proformance)を最適化し、blockchain技術を実際(じっさい)のビジネスシーンに適用する方法です。Hyperledger Fabricのsourcecodeを研究(けんきゅう)し、さまざまな機能を拡張(かくちょう)・最適化しました。例えば、さまざまな暗号化(あんごうか)アルゴリズム(algorithm)のサポート、さまざまな状態(じょうたい)データベースのサポート、さまざまなコンテナ(container)のサポート、smart contractの自動生成(せいせい)などです。
 
 I was involved in the design and development of a blockchain application platform during my time at Neusoft. This platform was a secondary development based on Hyperledger Fabric. The main challenge of this project was to optimize the performance of the blockchain and apply blockchain technology to real-world business scenarios. By studying the source code of Hyperledger Fabric, I extended and optimized many of its functionalities. For example, I added support for multiple encryption algorithms, multiple state databases, multiple containers, and automated smart contract generation, among other enhancements.
 

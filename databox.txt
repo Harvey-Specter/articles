@@ -1,14 +1,13 @@
 data sand box プラットフォーム
-このプロジェクトは現在テスト段階にあります。
-フェデラテッドラーニングの多元(たげん)的なセキュアコンピューティング(scrue computing)のシナリオ(scenario)では、データプロバイダー(data provider)のデータセキュリティ(scrurity)を保護(ほご)し、同時にアルゴリズムプロバイダー(algorithm provider)のコードセキュリティ(code scrurity)も確保(かくほ)できます。
+フェデラテッド(federated)ラーニングの多元(たげん)的なセキュアコンピューティング(scrue computing)のシナリオ(scenario)では、データプロバイダー(data provider)のデータセキュリティ(scrurity)を保護(ほご)し、同時にアルゴリズムプロバイダー(algorithm provider)のコードセキュリティ(code scrurity)も確保(かくほ)できます。
 
-KataContainer/Gvisorをベースとして、データセット管理、privacy computing projectの管理、scrue Containerの設定、環境管理、監視などの機能を実現するプラットフォームの主要な開発を行います
+KataContainer/Gvisorをベースとして、データセット管理、privacy computing管理、scrue Containerの設定、環境管理、監視などの機能を実現するプラットフォーム(platform)の主要な開発を行います
 
 需要(じゅよう)分析、新技術の先行(せんこう)研究、基本設計、詳細(しょうさい)設計、開発、単体(たんたい)テスト、総合(そうごう)テスト
 
 Kata-Containerは仮想(かそう)マシンベースのコンテナ技術であり、伝統(でんとう)的なcontainerdとdockerのコンテナよりも安全(あんぜん)で、システムリソース分離(ぶんり)がより優(すぐ)れています。
 
-私はコンテナ管理モジュールの設計と開発を担当しています。frontendではJavaScriptのVueフレームワークを使用し、バックエンドではJavaのSpring Bootフレームワークを採用しています。私の担当範囲(はんい)には、セキュアコンテナ(scrue container)であるKata ContainerとKubernetesの統合(とうごう)、およびエンジニアリング(engineering)バックエンドフレームワークとKubernetesの対話部分の開発が含(ふく)まれています。この部分はオープンソース(opensource)プロジェクトであるfabricioをベースに開発しています。
+私はコンテナ管理モジュールの設計と開発を担当しています。frontendではJavaScriptのVueフレームワークを使用し、バックエンドではJavaのSpring Bootフレームワークを採用しています。私の担当範囲(はんい)には、セキュアコンテナ(scrue container)であるKata ContainerとKubernetesの統合(とうごう)、およびバックエンドとKubernetesの対話部分の開発が含(ふく)まれています。この部分はオープンソース(opensource)プロジェクトであるfabricioをベースに開発しています。
 
 SpringBootでKubernetesを統合しているとき、openjdk11.0.2のbugに遭遇(そうぐう)しました。openSource licenseの制約(せいやく)から、OracleのJDKは使用できませんでした。最終的に、EclipseのOpenJDKの最新バージョンを見つけて問題を解決しました。
 

@@ -8,7 +8,7 @@ liang.qian@kasugai-co.jp
 我在东软时候开发的区块链应用平台,这个平台是基于Hyperledger Fabric的二次开发,我在这个项目中负责了整个项目的设计和开发,这个平台的难点在于如何优化区块链的性能并将区块链技术应用到实际的业务场景中,通过研究Hyperledger Fabric的源代码,扩展和优化了它的很多功能,比如支持多种加密算法,支持多种状态数据库,支持多种容器,能够自动生成智能合约等等.
 
 --对日开发的区别--
-私が参加した日本向け開発プロジェクトは、ほとんどがウォーターフォール(waterfall)型(かた)の開発プロセスを採用(さいよう)しており、国内(こくない)の開発プロセスに類似(るいじ)しています。まず、要件(ようけん)分析が行われ、それから概要(がいよう)設計と詳細(しょうさい)設計が行われ、詳細(しょうさい)設計文書に基づいてコーディング(coding)と単体(たんたい)テスト、統合(とうごう)テストが行われ、最後にユーザーマニュアルなどの文書が作成されます。各プロセスで必要な文書は、既存の中国語の文書を顧客(こきゃく)のテンプレートに従(したが)って日本語に翻訳(ほんやく)して作成され、具体的な内容に大きな違いはありません。
+私が参加した日本向け開発プロジェクト、 ほとんどがウォーターフォール(waterfall)型(かた)の開発プロセスを採用(さいよう)しており、国内(こくない)の開発プロセスに類似(るいじ)しています。まず、要件(ようけん)分析が行われ、それから概要(がいよう)設計と詳細(しょうさい)設計が行われ、詳細(しょうさい)設計文書に基づいてコーディング(coding)と単体(たんたい)テスト、統合(とうごう)テストが行われ、最後にユーザーマニュアルなどの文書が作成されます。各プロセスで必要な文書は、既存の中国語の文書を顧客(こきゃく)のテンプレートに従(したが)って日本語に翻訳(ほんやく)して作成され、具体的な内容に大きな違いはありません。
 
 弊社も製品品質に厳(きび)しい要求をしており、日本向けプロジェクトとの違いはあまりありませんが、違いを挙(あ)げるなら、日本向けプロジェクトの文書作成プロセスがより詳細(しょうさい)であり、要件変更(へんこう)が発生した場合でもプロセスをより厳格(げんかく)に遵守(じゅんしゅ)すると感じています。
 
@@ -19,14 +19,19 @@ liang.qian@kasugai-co.jp
 自動デプロイ(deploy)（CI/CD）の面では、まずJenkinsプロジェクトを作成し、各プロジェクトに対してモジュール(module)を作成し、開発環境、テスト環境、および本番環境用(よう)に自動テスト(test)スクリプト(script)を作成し、各環境の操作権限(そうさけんげん)とデプロイ(deploy)パラメーター(parameter)を設定し、プロジェクト間(kan)の依存(いぞん)関係(かんけい)を設定(せってい)しました。
 
 --java编程语言--
-ソフトウェアの初期バージョンでは、バックエンドにGo言語を使用していました。後に、FabricのJava言語APIの開発が進(すす)んでいることに気付(きづ)き、調査(ちょうさ)の結果(けっか)、ソフトウェアのバックエンドをJava Spring Bootで開発し直(なお)しました。また、ブロックチェーン(blockchain)の基本機能（証明書(しょうめいしょ)サービスやブロック(block)解析(かいせき)など）およびコンテナ関連のインターフェース(interface)も、アプリケーションのバックエンドから呼(よ)び出(だ)すためにサービスとしてラップされ、現在はDocker、containerd、Kubernetesなどの主要なコンテナ環境をサポートしています。
+このprojectの初期バージョンでは、バックエンドにGo言語を使用していました。後に、FabricのJava言語APIの開発が進(すす)んでいることに気付(きづ)き、調査(ちょうさ)の結果(けっか)、projectのbackendをJava Spring Bootで開発し直(なお)しました。
+
+また、ブロックチェーン(blockchain)の基本機能（証明書(しょうめいしょ)サービスやブロック(block)解析(かいせき)など）およびコンテナ関連のインターフェース(interface)も、applictionのbackendから呼(よ)び出(だ)すためにサービスとしてラップされ、現在はDocker、containerd、Kubernetesなどの主要なコンテナ環境をサポートしています。
 
 --项目目的及作用--
 この製品の目的(もくてき)は、ブロックチェーンの特性(とくせい)を活用(かつよう)してデータ(data)とトランザクション(transaction)プログラム(program)のセキュリティ(scrurity)と信頼(しんらい)性を確保(かくほ)することです。たとえば、トランザクション(transaction)の両当事者(りょうとうじしゃ)のデータはそれぞれの状態(じょうたい)データベース(database)に保存(ほぞん)され、トランザクション(transaction)の両当事者(りょうとうじしゃ)のプログラム(program)はスマート(smart)コントラクト(contract)の形式(けいしき)でそれぞれのブロックチェーン(blockchain)ノード(node)に展開されます。データまたは(smart)コントラクト(contract)の一方(いっぽう)的な変更(へんこう)は、後続(こうぞく)のトランザクション(transaction)の失敗(しっぱい)を引き起こします。これにより、データとトランザクション(transaction)ロジック(logic)がすべての関係(かんけい)者にとって可視(かし)であることと、データ(data)とプログラム(program)が改ざんされないことが保証(ほしょう)されます。
-取引(とりひき)関係者の承認(しょうにん)を得(え)た場合のみ、(smart)コントラクト(contract)の変更や取引データの変更はできます。
+取引(とりひき)関係者の承認(しょうにん)を得(え)た場合のみ、(smart)コントラクト(contract)の変更や取引(とりひき)データの変更はできます。
 
 --难点--
-私が東软で開発したブロックチェーンアプリケーションプラットフォームは、Hyperledger Fabricをベースにした二次開発です。このプロジェクト(project)では、全体の設計と開発を担当しました。このプラットフォームの難点(なんてん)は、ブロックチェーンのパフォーマンス(proformance)を最適化し、ブロックチェーン技術を実際(じっさい)のビジネスシーンに適用する方法です。Hyperledger Fabricのソースコードを研究(けんきゅう)し、さまざまな機能を拡張(かくちょう)・最適化しました。例えば、さまざまな暗号化(あんごうか)アルゴリズム(algorithm)のサポート、さまざまな状態(じょうたい)データベースのサポート、さまざまなコンテナ(container)のサポート、スマートコントラクトの自動生成(せいせい)などです。
+私が東软で開発したブロックチェーンアプリケーションプラットフォームは、Hyperledger Fabricをベースにした二次開発です。このプロジェクト(project)では、全体の設計と開発を担当しました。このプラットフォームの難点(なんてん)は、blockchainのパフォーマンス(proformance)を最適化し、blockchain技術を実際(じっさい)のビジネスシーンに適用する方法です。Hyperledger Fabricのsourcecodeを研究(けんきゅう)し、さまざまな機能を拡張(かくちょう)・最適化しました。例えば、さまざまな暗号化(あんごうか)アルゴリズム(algorithm)のサポート、さまざまな状態(じょうたい)データベースのサポート、さまざまなコンテナ(container)のサポート、smart contractの自動生成(せいせい)などです。
+
+--jmeter--
+blockchain platform performance testにはjmeterを使用しました。jmeterを実行するには多くのシステムリソースが必要だと感じました。
 
 I was involved in the design and development of a blockchain application platform during my time at Neusoft. This platform was a secondary development based on Hyperledger Fabric. The main challenge of this project was to optimize the performance of the blockchain and apply blockchain technology to real-world business scenarios. By studying the source code of Hyperledger Fabric, I extended and optimized many of its functionalities. For example, I added support for multiple encryption algorithms, multiple state databases, multiple containers, and automated smart contract generation, among other enhancements.
 
